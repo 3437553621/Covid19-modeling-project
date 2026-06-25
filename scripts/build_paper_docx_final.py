@@ -20,6 +20,7 @@ from docx.shared import Cm, Pt, RGBColor
 ROOT = Path(__file__).resolve().parents[1]
 STUDENT_ID = "1030424322"
 STUDENT_NAME = "解宝赛"
+SOURCE_CODE_URL = "https://github.com/3437553621/Covid19-modeling-project"
 SUBMIT_DIR = ROOT / f"{STUDENT_ID}-{STUDENT_NAME}"
 DOCX_PATH = SUBMIT_DIR / "期末大作业论文.docx"
 REPORT_COPY = ROOT / "reports" / "期末大作业论文.docx"
@@ -512,6 +513,7 @@ def add_abstract(doc: Document, processed: pd.DataFrame, ml_metrics: pd.DataFram
         f"{best_text}"
         "在中国大陆后期每日新增确诊预测中，NaivePersistence 取得最低 RMSE，说明该阶段序列具有较强短期惯性；复杂模型并不一定稳定优于简单基线。"
         "SIR 类模型具有较强机制解释能力；deaths 和 recovered 序列受低计数波动、统计修正和 recovered 停止可靠更新影响较大。"
+        f"本项目源代码、数据处理脚本和实验输出文件可通过 GitHub 仓库获得：{SOURCE_CODE_URL}。"
     )
     add_no_indent(doc, "关键词：疫情传播；SIR 模型；时变参数；机器学习；GradientBoosting；时间序列预测；区域传播趋势")
 

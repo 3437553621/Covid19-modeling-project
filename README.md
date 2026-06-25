@@ -1,6 +1,8 @@
 ﻿# COVID-19 疫情传播模型与预测模型方法
 
-本项目用于《计算机建模技术》期末大作业，选题为“疫情传播模型与预测模型方法”。工程围绕 JHU CSSE COVID-19 真实时间序列数据，完成数据预处理、区域传播趋势分析、SIR/时变 SIR 建模、Naive/LinearRegression/RandomForest/GradientBoosting 每日新增预测、未来 7/14 天预测、指标评价和论文式 Word 报告生成。
+本仓库是《计算机建模技术》期末大作业“题目一：疫情传播模型与预测模型方法”的完整工程。项目基于 JHU CSSE COVID-19 真实时间序列数据，完成中国大陆疫情传播趋势分析、SIR 与时变 SIR 建模、多种机器学习模型预测、未来 7/14 天短期预测、RMSE/MAE/R² 评价、可视化输出和论文式 Word 报告生成。
+
+项目源代码与实验结果地址：<https://github.com/3437553621/Covid19-modeling-project>
 
 ## 1. 项目功能
 
@@ -12,7 +14,7 @@
 - 拟合固定参数 SIR 和时变参数 SIR 模型。
 - 使用 `NaivePersistence`、`LinearRegression`、`RandomForestRegressor`、`GradientBoostingRegressor` 预测每日新增确诊、死亡、治愈。
 - 在 SIR 相同窗口上补充 GradientBoosting 对 `infected`、`removed`、`confirmed` 的同窗口对比实验。
-- 输出 RMSE、MAE、R2 指标、预测 CSV、图表、`reports/report.md` 和 `1030424322-解宝赛/期末大作业论文.docx`。
+- 输出 RMSE、MAE、R2 指标、预测 CSV、图表、`reports/report.md` 和 `期末大作业论文.docx`。
 
 ## 2. 环境安装
 
@@ -124,4 +126,3 @@ reports/期末大作业论文.docx
 
 6. 地区名称不匹配怎么办？
    请确认 `--country` 和 `--province` 与 JHU CSV 中的 `Country/Region`、`Province/State` 一致。默认全国聚合命令为 `--country China --province ""`。
-
