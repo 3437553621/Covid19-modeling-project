@@ -1,0 +1,2 @@
+﻿country,province,fit_start_date,fit_end_date,fit_days,forecast_days,beta,gamma,R0_beta_over_gamma,effective_population,initial_susceptible,initial_infected,initial_removed,success,cost,message
+China,Mainland,2020-01-22,2020-07-19,180,14,0.32699868759081047,0.04805368757896197,6.804861480265904,84516.80000000002,83969.80000000002,502.0,45.0,True,0.7052939709353125,Both `ftol` and `xtol` termination conditions are satisfied.

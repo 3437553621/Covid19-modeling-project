@@ -1,0 +1,4 @@
+﻿model,target,evaluation_scope,RMSE,MAE,R2
+TimeVaryingSIR,active_infected,descriptive_reconstruction,0.0024865503867093812,0.0015130325939667936,0.9999999999999769
+TimeVaryingSIR,removed,descriptive_reconstruction,0.001928035295784591,0.0011452669246258059,0.9999999999999958
+TimeVaryingSIR,confirmed,descriptive_reconstruction,0.0037957363398282025,0.002060774914651928,0.999999999999969

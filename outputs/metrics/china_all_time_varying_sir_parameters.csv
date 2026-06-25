@@ -1,0 +1,2 @@
+﻿country,province,fit_start_date,fit_end_date,fit_days,forecast_days,smoothing_window,mean_beta,mean_gamma,mean_R0_beta_over_gamma,final_beta,final_gamma,final_R0_beta_over_gamma,effective_population,initial_susceptible,initial_infected,initial_removed,base_sir_beta,base_sir_gamma,base_sir_R0
+China,ALL,2020-01-22,2020-07-19,180,14,1,0.04802747715995893,0.029575276239347387,1.6239062915687144,0.0194454967096648,0.008016519375088278,2.4256782525958362,90172.8000000409,89624.8000000409,503.0,45.0,0.3182688006663955,0.0475654323038983,6.691178556581967

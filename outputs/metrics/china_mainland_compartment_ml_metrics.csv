@@ -1,0 +1,4 @@
+﻿target,target_column,train_rows,test_rows,model,train_start_date,train_end_date,test_start_date,test_end_date,RMSE,MAE,R2,evaluation_scope,fit_window_start,fit_window_end
+infected,infected,121,31,GradientBoosting,2020-02-19,2020-06-18,2020-06-19,2020-07-19,111.96152108031646,101.84441881738714,-2.7825463446903504,chronological_test_within_sir_window,2020-01-22,2020-07-19
+removed,removed,121,31,GradientBoosting,2020-02-19,2020-06-18,2020-06-19,2020-07-19,215.99317637894782,178.43301074846033,-2.299742136143916,chronological_test_within_sir_window,2020-01-22,2020-07-19
+confirmed,confirmed,121,31,GradientBoosting,2020-02-19,2020-06-18,2020-06-19,2020-07-19,288.92856550483,276.2603097490829,-10.832931110773291,chronological_test_within_sir_window,2020-01-22,2020-07-19

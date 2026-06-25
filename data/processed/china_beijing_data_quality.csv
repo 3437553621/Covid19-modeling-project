@@ -1,0 +1,4 @@
+﻿target,country,province,start_date,end_date,reliable_end_date,days,cumulative_start,cumulative_end,daily_max,negative_daily_values_clipped,zero_daily_days,missing_days,terminal_zero_reset_date,terminal_zero_values_marked_missing,possible_reset_or_stop
+confirmed,China,Beijing,2020/1/22,2023/3/9,2023/3/9,1143,14,40774,2360,1,556,0,NONE,0,FALSE
+deaths,China,Beijing,2020/1/22,2023/3/9,2023/3/9,1143,0,20,7,0,1131,0,NONE,0,FALSE
+recovered,China,Beijing,2020/1/22,2023/3/9,2021/8/4,1143,0,1068,35,0,331,582,2021/8/5,582,TRUE

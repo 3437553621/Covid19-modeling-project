@@ -1,0 +1,4 @@
+﻿target,target_column,train_rows,test_rows,model,RMSE,MAE,R2
+confirmed,daily_confirmed,892,223,GradientBoosting,8204.928504729553,3580.057911747429,0.6229927393300502
+deaths,daily_deaths,892,223,GradientBoosting,4128.118101519872,376.3960704043553,-0.00674322421397755
+recovered,daily_recovered,426,107,GradientBoosting,11.33821046721308,7.40651205432854,-0.02113866578594159

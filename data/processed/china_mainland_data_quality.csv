@@ -1,0 +1,4 @@
+﻿target,country,province,start_date,end_date,reliable_end_date,days,cumulative_start,cumulative_end,daily_max,negative_daily_values_clipped,zero_daily_days,missing_days,terminal_zero_reset_date,terminal_zero_values_marked_missing,possible_reset_or_stop
+confirmed,China,Mainland,2020-01-22,2023-03-09,2023-03-09,1143,547.0,502088.0,15133.0,2,77,0,NONE,0,False
+deaths,China,Mainland,2020-01-22,2023-03-09,2023-03-09,1143,17.0,5273.0,1290.0,0,1000,0,NONE,0,False
+recovered,China,Mainland,2020-01-22,2023-03-09,2021-08-04,1143,28.0,87453.0,3994.0,1,12,582,2021-08-05,582,True
